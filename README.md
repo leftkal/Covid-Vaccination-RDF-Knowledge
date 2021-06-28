@@ -1,4 +1,7 @@
 # Covid-Vaccination-RDF-Knowledge
+
+WORK IN PROGRESS
+
 A program that gathers information about Covid Vaccination Progress in different countries and merges it with other datasets to create an RDF Graph
 
 
