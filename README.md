@@ -24,8 +24,7 @@ There are 3 notebooks in this project:
 * `rdf_creation.ipynb`
 * `queries_sparql.ipynb`
 
-
-## `COVID_19_World_Vaccination_Dataset_analysis.ipynb` 
+## COVID_19_World_Vaccination_Dataset_analysis.ipynb
 
 It is responsible for reading, formatting and cleaning the data. It reades the resources from the `data` folder and saves the `complete_df.csv` with the final complete dataframe in the `outputs` folder.
 
@@ -42,13 +41,25 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/path/to/file.json"
 in `COVID_19_World_Vaccination_Dataset_analysis.ipynb` in cell no 19 to integrate it into your code.
 
 
+## rdf_creation.ipynb
 
-## `rdf_creation.ipynb` 
-
-It is the notebook responsible for the transition from pandas dataframe to an rdf database. Furthermore it performs some sparql querries to verify the integrity of the proccess and creates an ugly visualization of a portion of the rdf graph (saved in `outputs` folder)
-
+It is the notebook responsible for the transition from pandas dataframe to an rdf database. Furthermore, it performs some sparql querries to verify the integrity of the proccess and creates an (ugly) visualization of a portion of the rdf graph (saved in `outputs` folder)
 
 
-## `queries_sparql.ipynb` 
+## queries_sparql.ipynb
 
 It is where the sparql queries showcasing the database are located.
+
+# Depedencies
+
+The libraries needed for the notebooks are the following:
+
+* `pandas`
+* `google-cloud-bigquery`
+* `numpy`
+* `pyarrow`
+* `rdfpandas`
+* `pydotplus`
+* `IPython`
+* `rdflib`
+* `pprint`
