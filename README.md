@@ -25,7 +25,9 @@ There are 3 notebooks in this project:
 * `queries_sparql.ipynb`
 
 
-`COVID_19_World_Vaccination_Dataset_analysis.ipynb` is responsible for reading, formatting and cleaning the data. It reades the resources from the `data` folder and saves the `complete_df.csv` with the final complete dataframe in the `outputs` folder.
+## `COVID_19_World_Vaccination_Dataset_analysis.ipynb` 
+
+It is responsible for reading, formatting and cleaning the data. It reades the resources from the `data` folder and saves the `complete_df.csv` with the final complete dataframe in the `outputs` folder.
 
 In order to run this notebook you need to set up Google Cloud authentication (needed for bigquery) and get a JSON file containing your key.
 
@@ -41,8 +43,12 @@ in `COVID_19_World_Vaccination_Dataset_analysis.ipynb` in cell no 19 to integrat
 
 
 
-`rdf_creation.ipynb` is the notebook responsible for the transition from pandas dataframe to an rdf database. Furthermore it performs some sparql querries to verify the integrity of the proccess and creates an ugly visualization of a portion of the rdf graph (saved in `outputs` folder)
+## `rdf_creation.ipynb` 
+
+It is the notebook responsible for the transition from pandas dataframe to an rdf database. Furthermore it performs some sparql querries to verify the integrity of the proccess and creates an ugly visualization of a portion of the rdf graph (saved in `outputs` folder)
 
 
 
-`queries_sparql.ipynb` is where the sparql queries showcasing the database are located.
+## `queries_sparql.ipynb` 
+
+It is where the sparql queries showcasing the database are located.
