@@ -62,4 +62,3 @@ The libraries needed for the notebooks are the following:
 * `pydotplus`
 * `IPython`
 * `rdflib`
-* `pprint`
