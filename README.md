@@ -23,6 +23,7 @@ There are 3 notebooks in this project:
 * `COVID_19_World_Vaccination_Dataset_analysis.ipynb`
 * `rdf_creation.ipynb`
 * `queries_sparql.ipynb`
+* `diagrams.ipynb`
 
 ## COVID_19_World_Vaccination_Dataset_analysis.ipynb
 
@@ -50,6 +51,10 @@ It is the notebook responsible for the transition from pandas dataframe to an rd
 
 It is where the sparql queries showcasing the database are located.
 
+## diagrams.ipynb
+
+This is a notebook that showcases some of the data collected through plots and graphs.
+
 # Depedencies
 
 The libraries needed for the notebooks are the following:
@@ -62,3 +67,7 @@ The libraries needed for the notebooks are the following:
 * `pydotplus`
 * `IPython`
 * `rdflib`
+* `seaborn`
+* `scipy`
+* `matoplotlib`
+* `plotly`
